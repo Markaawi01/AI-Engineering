@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Art Gallery - space exploration</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #111; color: #eee; margin: 0; padding: 24px; }
+    h1 { text-align: center; }
+    h2 { border-bottom: 1px solid #444; padding-bottom: 8px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px; }
+    figure { margin: 0; background: #1e1e1e; border-radius: 10px; overflow: hidden; border: 2px solid transparent; }
+    figure.best { border-color: gold; }
+    img { width: 100%; display: block; }
+    figcaption { padding: 12px; }
+    figcaption p { color: #aaa; font-size: 14px; margin: 6px 0 0; }
+    .badge { background: gold; color: #111; padding: 2px 8px; border-radius: 10px; font-size: 12px; }
+  </style>
+</head>
+<body>
+  <h1>AI Art Gallery: space exploration</h1>
+
+  <h2>Original images</h2>
+  <div class="grid">
+      <figure class="">
+        <img src="space-exploration-openai.png" alt="OpenAI">
+        <figcaption>
+          <strong>OpenAI</strong>
+          <p>Score: 85/100 - Excellent detail and composition with a clear focus on space exploration.</p>
+        </figcaption>
+      </figure>
+      <figure class="">
+        <img src="space-exploration-replicate.png" alt="Replicate">
+        <figcaption>
+          <strong>Replicate</strong>
+          <p>Score: 70/100 - Creative depiction of a rocket but lacks detail compared to others.</p>
+        </figcaption>
+      </figure>
+      <figure class="best">
+        <img src="space-exploration-fal.png" alt="fal.ai">
+        <figcaption>
+          <strong>fal.ai</strong> <span class="badge">Best</span>
+          <p>Score: 90/100 - Highly imaginative and detailed representation of a futuristic space environment.</p>
+        </figcaption>
+      </figure>
+  </div>
+
+  <h2>Variations of the best image</h2>
+  <div class="grid">
+      <figure class="">
+        <img src="space-exploration-best-fal-variation-watercolor-painting.png" alt="Variation: watercolor painting">
+        <figcaption>
+          <strong>Variation: watercolor painting</strong>
+          
+        </figcaption>
+      </figure>
+      <figure class="">
+        <img src="space-exploration-best-fal-variation-cyberpunk-neon.png" alt="Variation: cyberpunk neon">
+        <figcaption>
+          <strong>Variation: cyberpunk neon</strong>
+          
+        </figcaption>
+      </figure>
+  </div>
+</body>
+</html>
