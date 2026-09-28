@@ -1,0 +1,95 @@
+{
+  "topic": "Healthy sleep habits",
+  "slug": "healthy-sleep-habits",
+  "tone": "exciting",
+  "createdAt": "2026-09-28T16:10:56.079Z",
+  "summary": "Unlock the secrets to healthy sleep habits and transform your well-being! With a consistent sleep schedule, a cozy environment, and relaxation techniques, you can enhance your sleep quality and boost your mood.",
+  "social": {
+    "twitter": "Transform your sleep, transform your life! 💤✨ #HealthySleep #Wellness",
+    "linkedin": "Developing healthy sleep habits is essential for enhancing overall well-being and productivity. By establishing a consistent sleep schedule, creating a calming environment, and incorporating relaxation techniques, you can significantly improve your sleep quality. Prioritize your rest to unlock your full potential.",
+    "instagram": "Ready to catch those Z's? 😴✨ Create a cozy sleep sanctuary, limit screen time, and embrace relaxation techniques for a restful night! #SleepWell #SweetDreams"
+  },
+  "prompts": {
+    "header": "A serene bedroom with soft lighting, cozy bedding, and calming decor, evoking a sense of peace and relaxation for sleep.",
+    "thumbnail": "Sleep Better: Unlock the Secrets"
+  },
+  "models": {
+    "article": "openai/gpt-4o-mini",
+    "extras": "openai/gpt-4o-mini",
+    "header": "gpt-image-1",
+    "thumbnail": "gpt-image-1",
+    "narration": "google/gemini-3.1-flash-tts-preview"
+  },
+  "narrationCheck": {
+    "score": 100,
+    "passed": true,
+    "transcript": "Unlock the secrets to healthy sleep habits and transform your well-being. With a consistent sleep schedule, a cozy environment, and relaxation techniques, you can enhance your sleep quality and boost your mood."
+  },
+  "steps": [
+    {
+      "topic": "Healthy sleep habits",
+      "step": "article",
+      "model": "openai/gpt-4o-mini",
+      "status": "ok",
+      "ms": 9484,
+      "cost": 0.0003111
+    },
+    {
+      "topic": "Healthy sleep habits",
+      "step": "summary + social posts",
+      "model": "openai/gpt-4o-mini",
+      "status": "ok",
+      "ms": 2691,
+      "cost": 0.00022035
+    },
+    {
+      "topic": "Healthy sleep habits",
+      "step": "header image",
+      "model": "dall-e-3",
+      "status": "failed",
+      "ms": 192,
+      "error": "400 [\n  {\n    \"code\": \"invalid_value\",\n    \"values\": [\n      \"auto\",\n      \"low\",\n      \"medium\",\n      \"high\",\n      \"xhigh\",\n      \"max\"\n    ],\n    \"path\": [\n      \"quality\"\n    ],\n    \"message\": \"Invalid option: expected one of \\\"auto\\\"|\\\"low\\\"|\\\"medium\\\"|\\\"high\\\"|\\\"xhigh\\\"|\\\"max\\\"\"\n  }\n]"
+    },
+    {
+      "topic": "Healthy sleep habits",
+      "step": "narration",
+      "model": "google/gemini-3.1-flash-tts-preview",
+      "status": "ok",
+      "ms": 36733,
+      "cost": 0.0074725,
+      "estimated": true
+    },
+    {
+      "topic": "Healthy sleep habits",
+      "step": "header image",
+      "model": "gpt-image-1",
+      "status": "ok",
+      "ms": 41936,
+      "cost": 0.016155
+    },
+    {
+      "topic": "Healthy sleep habits",
+      "step": "thumbnail",
+      "model": "gpt-image-1",
+      "status": "ok",
+      "ms": 55614,
+      "cost": 0.01094
+    },
+    {
+      "topic": "Healthy sleep habits",
+      "step": "narration check",
+      "model": "gpt-4o-mini-transcribe",
+      "status": "ok",
+      "ms": 3439
+    }
+  ],
+  "totals": {
+    "cost": 0.03509895,
+    "seconds": 150.089
+  },
+  "files": {
+    "header": "healthy-sleep-habits-header.png",
+    "thumbnail": "healthy-sleep-habits-thumbnail.png",
+    "narration": "healthy-sleep-habits-narration.wav"
+  }
+}

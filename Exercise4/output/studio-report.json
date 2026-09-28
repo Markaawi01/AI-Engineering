@@ -1,0 +1,132 @@
+{
+  "createdAt": "2026-09-28T16:10:56.113Z",
+  "tone": "exciting",
+  "totalCost": 0.07131895,
+  "totalSeconds": 71.265,
+  "topics": [
+    {
+      "topic": "Learning to code in 2026",
+      "status": "ok",
+      "folder": "learning-to-code-in-2026"
+    },
+    {
+      "topic": "Healthy sleep habits",
+      "status": "ok",
+      "folder": "healthy-sleep-habits"
+    }
+  ],
+  "steps": [
+    {
+      "topic": "Learning to code in 2026",
+      "step": "article",
+      "model": "openai/gpt-4o-mini",
+      "status": "ok",
+      "ms": 5564,
+      "cost": 0.0003105
+    },
+    {
+      "topic": "Learning to code in 2026",
+      "step": "summary + social posts",
+      "model": "openai/gpt-4o-mini",
+      "status": "ok",
+      "ms": 3177,
+      "cost": 0.0002415
+    },
+    {
+      "topic": "Learning to code in 2026",
+      "step": "header image",
+      "model": "dall-e-3",
+      "status": "failed",
+      "ms": 734,
+      "error": "400 [\n  {\n    \"code\": \"invalid_value\",\n    \"values\": [\n      \"auto\",\n      \"low\",\n      \"medium\",\n      \"high\",\n      \"xhigh\",\n      \"max\"\n    ],\n    \"path\": [\n      \"quality\"\n    ],\n    \"message\": \"Invalid option: expected one of \\\"auto\\\"|\\\"low\\\"|\\\"medium\\\"|\\\"high\\\"|\\\"xhigh\\\"|\\\"max\\\"\"\n  }\n]"
+    },
+    {
+      "topic": "Healthy sleep habits",
+      "step": "article",
+      "model": "openai/gpt-4o-mini",
+      "status": "ok",
+      "ms": 9484,
+      "cost": 0.0003111
+    },
+    {
+      "topic": "Healthy sleep habits",
+      "step": "summary + social posts",
+      "model": "openai/gpt-4o-mini",
+      "status": "ok",
+      "ms": 2691,
+      "cost": 0.00022035
+    },
+    {
+      "topic": "Healthy sleep habits",
+      "step": "header image",
+      "model": "dall-e-3",
+      "status": "failed",
+      "ms": 192,
+      "error": "400 [\n  {\n    \"code\": \"invalid_value\",\n    \"values\": [\n      \"auto\",\n      \"low\",\n      \"medium\",\n      \"high\",\n      \"xhigh\",\n      \"max\"\n    ],\n    \"path\": [\n      \"quality\"\n    ],\n    \"message\": \"Invalid option: expected one of \\\"auto\\\"|\\\"low\\\"|\\\"medium\\\"|\\\"high\\\"|\\\"xhigh\\\"|\\\"max\\\"\"\n  }\n]"
+    },
+    {
+      "topic": "Learning to code in 2026",
+      "step": "thumbnail",
+      "model": "gpt-image-1",
+      "status": "ok",
+      "ms": 16117,
+      "cost": 0.01099
+    },
+    {
+      "topic": "Learning to code in 2026",
+      "step": "narration",
+      "model": "google/gemini-3.1-flash-tts-preview",
+      "status": "ok",
+      "ms": 21923,
+      "cost": 0.008528000000000003,
+      "estimated": true
+    },
+    {
+      "topic": "Healthy sleep habits",
+      "step": "narration",
+      "model": "google/gemini-3.1-flash-tts-preview",
+      "status": "ok",
+      "ms": 36733,
+      "cost": 0.0074725,
+      "estimated": true
+    },
+    {
+      "topic": "Healthy sleep habits",
+      "step": "header image",
+      "model": "gpt-image-1",
+      "status": "ok",
+      "ms": 41936,
+      "cost": 0.016155
+    },
+    {
+      "topic": "Learning to code in 2026",
+      "step": "header image",
+      "model": "gpt-image-1",
+      "status": "ok",
+      "ms": 54356,
+      "cost": 0.01615
+    },
+    {
+      "topic": "Healthy sleep habits",
+      "step": "thumbnail",
+      "model": "gpt-image-1",
+      "status": "ok",
+      "ms": 55614,
+      "cost": 0.01094
+    },
+    {
+      "topic": "Learning to code in 2026",
+      "step": "narration check",
+      "model": "gpt-4o-mini-transcribe",
+      "status": "ok",
+      "ms": 5769
+    },
+    {
+      "topic": "Healthy sleep habits",
+      "step": "narration check",
+      "model": "gpt-4o-mini-transcribe",
+      "status": "ok",
+      "ms": 3439
+    }
+  ]
+}

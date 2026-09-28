@@ -1,0 +1,95 @@
+{
+  "topic": "Learning to code in 2026",
+  "slug": "learning-to-code-in-2026",
+  "tone": "exciting",
+  "createdAt": "2026-09-28T16:10:54.459Z",
+  "summary": "In 2026, coding has become an essential skill across various industries, offering exciting opportunities for both beginners and seasoned developers. With innovative learning tools and a focus on collaboration, now is the perfect time to dive into the world of programming!",
+  "social": {
+    "twitter": "Unlock your coding potential in 2026! 🚀 With AI-driven learning and immersive experiences, the future of programming is bright. #LearnToCode #FutureSkills",
+    "linkedin": "As we step into 2026, coding has evolved into a vital skill that spans across all industries. With advanced learning tools, including AI-driven platforms and VR classrooms, anyone can master programming. Embrace collaboration and explore the endless possibilities that coding offers in today's job market.",
+    "instagram": "Ready to code your future? 💻✨ Dive into the exciting world of programming in 2026 with innovative tools and collaborative communities! #CodingJourney #TechFuture"
+  },
+  "prompts": {
+    "header": "A wide, cinematic image depicting a futuristic coding classroom with students engaged in VR coding experiences, surrounded by vibrant digital landscapes.",
+    "thumbnail": "A bold square thumbnail featuring the title 'Code Your Future' in modern typography."
+  },
+  "models": {
+    "article": "openai/gpt-4o-mini",
+    "extras": "openai/gpt-4o-mini",
+    "header": "gpt-image-1",
+    "thumbnail": "gpt-image-1",
+    "narration": "google/gemini-3.1-flash-tts-preview"
+  },
+  "narrationCheck": {
+    "score": 100,
+    "passed": true,
+    "transcript": "In 2026, coding has become an essential skill across various industries, offering exciting opportunities for both beginners and seasoned developers. With innovative learning tools and a focus on collaboration, now is the perfect time to dive into the world of programming!"
+  },
+  "steps": [
+    {
+      "topic": "Learning to code in 2026",
+      "step": "article",
+      "model": "openai/gpt-4o-mini",
+      "status": "ok",
+      "ms": 5564,
+      "cost": 0.0003105
+    },
+    {
+      "topic": "Learning to code in 2026",
+      "step": "summary + social posts",
+      "model": "openai/gpt-4o-mini",
+      "status": "ok",
+      "ms": 3177,
+      "cost": 0.0002415
+    },
+    {
+      "topic": "Learning to code in 2026",
+      "step": "header image",
+      "model": "dall-e-3",
+      "status": "failed",
+      "ms": 734,
+      "error": "400 [\n  {\n    \"code\": \"invalid_value\",\n    \"values\": [\n      \"auto\",\n      \"low\",\n      \"medium\",\n      \"high\",\n      \"xhigh\",\n      \"max\"\n    ],\n    \"path\": [\n      \"quality\"\n    ],\n    \"message\": \"Invalid option: expected one of \\\"auto\\\"|\\\"low\\\"|\\\"medium\\\"|\\\"high\\\"|\\\"xhigh\\\"|\\\"max\\\"\"\n  }\n]"
+    },
+    {
+      "topic": "Learning to code in 2026",
+      "step": "thumbnail",
+      "model": "gpt-image-1",
+      "status": "ok",
+      "ms": 16117,
+      "cost": 0.01099
+    },
+    {
+      "topic": "Learning to code in 2026",
+      "step": "narration",
+      "model": "google/gemini-3.1-flash-tts-preview",
+      "status": "ok",
+      "ms": 21923,
+      "cost": 0.008528000000000003,
+      "estimated": true
+    },
+    {
+      "topic": "Learning to code in 2026",
+      "step": "header image",
+      "model": "gpt-image-1",
+      "status": "ok",
+      "ms": 54356,
+      "cost": 0.01615
+    },
+    {
+      "topic": "Learning to code in 2026",
+      "step": "narration check",
+      "model": "gpt-4o-mini-transcribe",
+      "status": "ok",
+      "ms": 5769
+    }
+  ],
+  "totals": {
+    "cost": 0.03622,
+    "seconds": 107.64
+  },
+  "files": {
+    "header": "learning-to-code-in-2026-header.png",
+    "thumbnail": "learning-to-code-in-2026-thumbnail.png",
+    "narration": "learning-to-code-in-2026-narration.wav"
+  }
+}
