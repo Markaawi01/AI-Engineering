@@ -12,7 +12,8 @@ const openai = new OpenAI({
 
 // Gemini TTS understands emotions written in the text, like "Say sadly: ..."
 // (the OpenAI "instructions" option is ignored by the models on OpenRouter)
-const MODEL = 'google/gemini-3.8-flash-tts';
+// Note: gemini-3.8-flash-tts reads the direction out loud - this model does not
+const MODEL = 'google/gemini-3.1-flash-tts-preview';
 
 // All audio files go into Exercise3/audio
 const AUDIO_DIR = new URL('./audio/', import.meta.url);
